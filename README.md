@@ -39,8 +39,8 @@ Once the app is running, open a browser and go to [http://127.0.0.1:5000/](http:
 1. **Input Form**: Users enter four measurements: Sepal Length, Sepal Width, Petal Length, and Petal Width.
 2. **Prediction**: The machine learning model processes the input and predicts the iris flower species: Setosa, Virginica, or Versicolor.
 3. **Results**: The predicted species is displayed on the result page.
-
 ## Project Structure
+
 FloralAI/
 │
 ├── app.py                # Flask application
@@ -56,6 +56,7 @@ FloralAI/
 ├── forms.py              # Flask form handling
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
+
 
 ## License
 
