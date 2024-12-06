@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content-section center_div">
+    <h3 class="text-center">RESULT</h3>
+    <h2 class="border-top mt-4 text-center">{{ result }}</h2>
+</div>
+
+<div class="border-top pt-3 center_div">
+    <small class="faded">
+        Back to home? <a class="ml-2 clear" href="{{ url_for('predict') }}">Home</a>
+    </small>
+</div>
+
+{% endblock %}
